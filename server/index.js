@@ -43,6 +43,3 @@ mongoose.connect(process.env.MDB_CONNECT_STRING,{
     if (err) return console.log(err);
     console.log("Connected to Mongo DB");
 });
-
-
-// "mongodb+srv://devhistry:SDhi2E8nN1vgTGM8@snippet-manager.spfov.mongodb.net/main?retryWrites=true&w=majority"
